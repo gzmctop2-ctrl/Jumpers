@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "jumpers",
+  "version": "${version}",
+  "name": "Jumpers",
+  "description": "Press Right Shift to open the menu, bind a key, and toggle endless jumping.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.infinitejump.InfiniteJumpClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
